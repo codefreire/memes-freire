@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: black;
 }
 
 img {
@@ -13,6 +13,8 @@ img {
     justify-content: center;
     font-size: 48px;
     font-weight: bold;
+    color: green;
+    
 }
 
 .memes-container {
@@ -24,14 +26,14 @@ img {
 .single-meme {
     flex-shrink: 1;
     flex-basis: 20.01%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 80px;
     border-radius: 50px;
-    background: cornflowerblue;
-    box-shadow: -20px -20px 60px #bebebe,
-        20px 20px 60px #ffffff;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, cornflowerblue);
+    box-shadow: 15px 15px 17px #c0bfbf,
+        -29px -29px 17px #403f3f;
 }
-
 
 .title-meme {
     display: flex;

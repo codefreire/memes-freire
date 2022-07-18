@@ -22,7 +22,7 @@ class MemeContainer extends React.Component {
 
         return (
             <>
-                <Title>Memes de https://imgflip.com/api</Title>
+                <Title>Memes de&nbsp;<a target="_blank" href="https://imgflip.com/api">imgflip api</a></Title>
 
                 {
                     isFetch && 'Loading...'
